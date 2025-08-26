@@ -1,7 +1,12 @@
 [project]
 name = "ai-resume-critiquer"
 version = "0.1.0"
-description = "Add your description here"
+description = "An AI agent application that scan and analyse Resumes."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "openai>=1.101.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.48.1",
+]
